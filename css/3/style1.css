@@ -1,0 +1,20 @@
+h2{
+    display: inline;
+    background-color: coral;
+}
+span{
+    display: block;
+    background-color: yellowgreen;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block; /* jb block elements ko inline krna ho without losing css properties  */
+}
+.third{
+    display: none;
+    
+}

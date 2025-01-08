@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    /* transition: 1s;
+    transition-delay: 1s; */
+    margin: 0 auto ; /* to get into centre*/
+    margin-top:  10px;  
+    transition: margin-top 2s ease 0.2s;
+}
+div:hover{
+    background-color: blue;
+    /* border-radius: 50%; */
+    margin-top: 400px;
+    
+
+}

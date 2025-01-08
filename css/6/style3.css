@@ -1,0 +1,17 @@
+.box{
+    background-color: yellowgreen;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+.one{
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1; /*z-index ke liye position rel ya abs dena mandatory hai ... jiska z index bda vo upr aayega*/
+}
+.two{
+    background-color: orange;
+    position: relative;
+    bottom: 50px;
+    z-index: -1;
+}

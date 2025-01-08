@@ -1,0 +1,56 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+
+    /* animation-name: width;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    /* another way of writing animation shorthand */
+
+    animation: color 2s ease-in 0s 6 alternate;
+
+
+}
+@keyframes font {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes color {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    80%{
+        background-color: cadetblue;
+    }
+    90%{
+        color: chartreuse;
+    }
+    100%{
+        background-color: darkgrey;
+    }
+    
+}
+@keyframes width {
+    from{
+        width: 10px;
+        background-color: aqua;
+    }
+    to{
+        width: 200px;
+        background-color:firebrick;
+        border-radius: 15px;
+    }
+    
+}

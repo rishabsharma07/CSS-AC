@@ -1,0 +1,49 @@
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse ; */
+    /* align-items: center; justify content main axis pr krta h  and align items cross axis pr */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: baseline;  ye box ke andr ke content ke 1 same line pr le aata h */
+    align-content: flex-start; /* align-content 2 ya usse zyada lines ka space khtm krdeta hai bs yehi difference h align items and align content me*/
+    /* align-content: flex-start;
+    align-content: flex-end; */
+}
+.yel{
+    flex-basis: 20px; /* ye agr row hoga to width and if agr column hoga to height increase/decrease krega*/
+    flex-grow: 1; /* jitni space bachegi usko occupy*/
+}
+.org{
+    align-self: flex-end ;
+    flex-grow: 2; /*jitni space yellow lerha hoga uska double ye occupy*/
+    max-width: 400px; /*max width jiske upr or nhi jaa skte*/
+    min-width: 200px; /*min width jisse or kum nhi ho skta box*/ 
+    flex-shrink: 2; /* ye grow ka opposite hai means agr overflow hoga then ye 2 time km hojayega sbse as sbka flex shrink 1 hota hai initially*/
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+

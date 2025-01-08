@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    bottom: 100px; /* no effect as position is static*/
+}
+#relative{
+    background-color: yellow; /* isme centre element( here div) ka sides leta h and then isme top se 100px neehe and left se 100px right jaeyaga*/
+    position: relative;
+    top: 100px;
+    left: 100px; 
+}
+#absolute{
+    background-color: yellow;
+    position: absolute; /* isme page ke kone se 100px top and left hoga as ye parent me position dekhta h and if parent ke paas no position then it will take page corner as centre*/
+    top: 100px;
+    left: 100px; 
+}
+#fixed{
+    background-color: yellow;
+    position: fixed; 
+    top: 100px;
+    left: 100px; 
+}

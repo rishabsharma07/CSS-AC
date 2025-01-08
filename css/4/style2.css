@@ -1,0 +1,44 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px auto;
+    text-align: center;
+}
+div:nth-of-type(2n){
+    background-color: palevioletred;
+}
+div:nth-of-type(1){
+    background-color: blue;
+}
+#three{
+    background-color: brown ;
+    transform: skew(30deg);
+}
+#five{
+    background-color: brown ;
+    transform: rotate(30deg) translateX(100px);
+}
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform: scale(0.5, 1.5); /* x,y*/
+    /* transform: scaleX(0.5); for x axis
+    transform: scaleY(2);  for y axis*/ 
+}
+#four{
+    transform: translate(100px ,10px); /* to move 100 px in x,y*/
+    /* transform: translateX(-100px); in x axis
+    transform: translateY(100px); in y axis */
+
+}
+#six{
+    border: none;
+    margin-top: 200px;
+    box-shadow: 3px 3px 10px black;
+}
